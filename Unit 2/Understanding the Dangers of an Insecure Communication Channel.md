@@ -4,7 +4,7 @@ Here's a structured breakdown of the dangers:
 
 ### 1. Data Interception and Manipulation
 
-- **Vulnerable Network Layers:** The sources stress that network layers are inherently susceptible to eavesdropping. An adversary positioned on your local Wi-Fi network or controlling network devices (routers, cell towers) could potentially intercept data transmitted by your mobile device.
+- **Vulnerable Network Layers:** The network layers are inherently susceptible to eavesdropping. An adversary positioned on your local Wi-Fi network or controlling network devices (routers, cell towers) could potentially intercept data transmitted by your mobile device.
 - **Insecure Protocols:** While protocols like SSL/TLS are designed to secure communication, incorrect implementation or configuration flaws can introduce vulnerabilities, enabling attackers to intercept and potentially modify data in transit.
 
 ### 2. Data Breaches and Privacy Violations

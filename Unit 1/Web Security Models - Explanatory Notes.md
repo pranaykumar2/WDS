@@ -34,7 +34,7 @@ The sources provide detailed explanations for several specific web security mode
     - Built on the concept of a **state machine** with defined transition functions.
     - Defines **two mandatory access control (MAC) rules and one discretionary access control (DAC) rule**.
         - **Simple Security Property:** Prevents subjects from reading objects at higher security levels (“no read-up”).
-        - ***Star Property Property:** Prevents subjects from writing to objects at lower security levels (“no write-down”).
+        - ***Star Security Property:** Prevents subjects from writing to objects at lower security levels (“no write-down”).
         - **Discretionary Security Property:** Utilizes an access matrix to specify discretionary access control.
     - BLP includes **mathematical proof** that a secure system remains secure if transitions satisfy all defined properties.
     - **Limitations:** Limited applicability to systems with dynamic security levels; allows controlled copying from high to low via trusted subjects; state-transition model lacks state invariants.
