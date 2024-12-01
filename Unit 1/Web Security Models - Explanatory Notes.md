@@ -34,20 +34,19 @@ The sources provide detailed explanations for several specific web security mode
     - Built on the concept of a **state machine** with defined transition functions.
     - Defines **two mandatory access control (MAC) rules and one discretionary access control (DAC) rule**.
         - **Simple Security Property:** Prevents subjects from reading objects at higher security levels (“no read-up”).
-        - ***-Property:** Prevents subjects from writing to objects at lower security levels (“no write-down”).
+        - ***Star Property Property:** Prevents subjects from writing to objects at lower security levels (“no write-down”).
         - **Discretionary Security Property:** Utilizes an access matrix to specify discretionary access control.
     - BLP includes **mathematical proof** that a secure system remains secure if transitions satisfy all defined properties.
     - **Limitations:** Limited applicability to systems with dynamic security levels; allows controlled copying from high to low via trusted subjects; state-transition model lacks state invariants.
 
 - **Biba Model**
-    
     - Developed by Kenneth J. Biba in 1975.
     - Focuses on **data integrity**.
     - Characterized by the phrase: **“no read down, no write up”**.
     - Defines security rules that are the reverse of the Bell-LaPadula rules.
         - **Invocation Property:** Prevents processes from requesting higher access; access is only allowed at equal or lower levels.
         - **Simple Integrity Axiom:** Prevents subjects from reading objects at lower integrity levels (“no read down”).
-        - *** (star) Integrity Axiom:** Prevents subjects from writing to objects at higher integrity levels (“no write up”).
+        - **Star Integrity Axiom:** Prevents subjects from writing to objects at higher integrity levels (“no write up”).
 
 - **Clark-Wilson Model**
     
@@ -90,5 +89,3 @@ The sources provide detailed explanations for several specific web security mode
     - **Dynamic access control**: Rules change based on user behavior.
     - Initially, users have no restrictions.
     - Accessing a file restricts access to competitor information.
-
-**Note:** This response is based solely on the provided source documents. Additional research may provide further insights and more recent developments in web security models.
