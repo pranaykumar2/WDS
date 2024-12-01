@@ -79,5 +79,3 @@ This code defines a `DataReader` role, grants it `SELECT` permissions on the `Em
 - **Principle of Least Privilege:** Grant only the minimum necessary permissions for users to fulfill their job functions.
 - **Use Roles for Grouping Permissions:** Assign permissions to roles and then assign users to those roles for easier management.
 - **Regular Audits:** Conduct regular reviews and audits of roles and permissions to ensure proper configuration and address any security gaps.
-
-**Note:** The provided source materials lack specific details on "Best Practices Profiles" as mentioned in the query. This section has focused on general best practices related to privileges and roles, aligning with the information available in the sources.

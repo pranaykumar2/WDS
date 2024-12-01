@@ -108,5 +108,3 @@ A robust password policy is vital to database security. SQL Server allows enforc
 - **Complexity:** Enforce using uppercase, lowercase, numbers, and special characters.
 - **Expiration:** Set a password expiration, such as every 90 days.
 - **Account lockout:** Configure a lockout mechanism after multiple failed login attempts to prevent brute-force attacks.
-
-The sources provided did not cover SQL Server User or Best Practices profiles, so information on these topics was not included.

@@ -25,5 +25,3 @@ Here are some notes based on those insights:
 - **Secure Coding Practices:** Developing web applications with security in mind, including input validation, output encoding, and secure handling of sensitive data. 
 - **Regular Updates and Patching:** Keeping software and systems updated to address known vulnerabilities and security flaws. 
 - **User Education and Awareness:** Training users on safe browsing practices, recognizing phishing attempts, and maintaining strong passwords.
-
-While the sources don't explicitly outline a "Web Security Model," they offer valuable insights into the structure of the web, its inherent vulnerabilities, and the security considerations necessary for building secure web applications and protecting user data. Understanding these underlying principles and potential attack vectors is crucial for developing and maintaining a secure web environment.

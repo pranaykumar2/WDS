@@ -35,7 +35,3 @@ When investigating injection attacks, consider the historical context to underst
 4. **Decode the Payload:** Analyze the malicious code injected by the attacker. Understanding the payload can reveal the attacker's goals, the techniques used, and the potential impact of the attack.
 5. **Investigate the Impact:** Assess the damage caused by the attack, including data breaches, compromised accounts, or system downtime. Determine if any sensitive data was accessed or exfiltrated.
 6. **Review Security Measures:** Evaluate the existing security controls and identify weaknesses that allowed the attack to succeed. This might involve reviewing code for vulnerabilities, checking logging configurations, and assessing security policies.
-
-### Conclusion
-
-Investigating injection attacks requires a combination of technical skills and historical awareness. By understanding the evolving nature of these attacks, security professionals can better identify vulnerabilities, mitigate risks, and protect systems from future exploitation.
