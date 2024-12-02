@@ -3,10 +3,15 @@
 The sources emphasize the importance of **strong password controls** as a foundational element in securing the authentication process.
 
 - **Password Strength:** Enforce strong password policies that require a minimum length (at least 8 characters, preferably more) and a combination of uppercase and lowercase letters, numbers, and special characters. Consider aligning with industry standards like NIST SP800-63B, which suggests a minimum password length of 64 characters.
+
 - **Password Storage:** Never store passwords in plain text. Instead, use secure cryptographic techniques to hash passwords before storing them. **Password hashing** is a one-way function that transforms the password into an unreadable string, making it extremely difficult for attackers to recover the original password even if they gain access to the hashed values.
+
 - **Password Comparison:** When comparing user-supplied passwords with stored hashes, use secure functions that protect against timing attacks. Timing attacks exploit the time variations in password comparison operations to glean information about the password.
+
 - **Multi-Factor Authentication (MFA):** Implement MFA to add an extra layer of security by requiring users to provide an additional factor beyond their password. Examples include one-time codes sent to their mobile device or the use of a hardware token. MFA significantly increases the difficulty for attackers to compromise accounts.
+
 - **Login Throttling and Account Lockout:** To defend against brute-force attacks, implement login throttling to limit the number of login attempts within a specific timeframe. Consider incorporating an account lockout mechanism after a certain number of failed attempts to prevent further attempts from the same source.
+
 - **CAPTCHA:** CAPTCHA (Completely Automated Public Turing test to tell Computers and Humans Apart) can be used to distinguish human users from automated bots. It presents a challenge that is easy for humans to solve but difficult for bots. CAPTCHA can be particularly effective in mitigating brute-force attacks and credential stuffing.
 
 ### Preventing Authorization Bypasses
@@ -14,9 +19,13 @@ The sources emphasize the importance of **strong password controls** as a founda
 **Authorization** ensures that authenticated users are only granted access to the resources they are permitted to use. The sources highlight several measures to prevent authorization bypasses, ensuring the integrity of access control mechanisms.
 
 - **Enforce Least Privilege:** Adhere to the principle of least privilege, granting users only the minimum permissions necessary to perform their tasks. This limits the potential damage if an account is compromised or if there are errors in authorization logic.
+
 - **Thorough Validation of Permissions:** Validate all requests for access to resources, regardless of how the request is submitted. This includes requests made via AJAX, server-side scripts, or any other means. Implementing consistent permission checks across all entry points to the application is crucial.
+
 - **Secure Lookups:** Prevent unauthorized access to data by ensuring that application interfaces don't expose sensitive information like user IDs or account numbers in URLs or other easily manipulated fields. Attackers often attempt to modify these values to gain access to resources they should not be able to access.
+
 - **Secure Static Resources:** Static resources, such as images and files, may also contain sensitive information. Implement appropriate access controls for static resources to ensure that only authorized users can access them.
+
 - **Client-Side Checks Are Insufficient:** While client-side checks can improve user experience, they should never be relied upon as the sole mechanism for authorization. Client-side code can be easily bypassed. Server-side authorization checks are essential for robust security.
 
 ### Hardening Session Management Mechanisms

@@ -14,11 +14,14 @@ The sources discuss several common server-side injection attacks, each targeting
     - **Retrieving sensitive data** like customer information, financial records, or proprietary secrets
     - **Modifying or deleting data**, disrupting the application's functionality or causing data loss
     - **Gaining full control of the database server**, escalating privileges and compromising the entire system
+
 - **LDAP Injection:** This attack targets applications that utilize the Lightweight Directory Access Protocol (LDAP) to access and manage directory information. Attackers inject malicious LDAP code, leading to unauthorized data access, modification, or even system compromise.
+
 - **OS Command Injection:** This attack exploits vulnerabilities in how applications execute system commands. Attackers inject malicious code into parameters that are passed to operating system functions, allowing them to:
     - **Execute arbitrary commands on the server**, gaining unauthorized access and control
     - **Access sensitive files and directories**, potentially exfiltrating data or altering system configurations
     - **Install backdoors or malware**, further compromising the server and enabling persistent access
+
 - **XPath Injection:** This attack targets applications that process XML data using XPath queries. Attackers inject malicious XPath expressions into user-supplied data, manipulating the XML document and retrieving or modifying sensitive information. **Note:** While the provided sources mention XPath injection, they don't provide specific details. Further research from external sources is needed for a comprehensive understanding of this attack type.
 
 ### Example of a SQL Injection Attack:
